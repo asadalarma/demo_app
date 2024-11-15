@@ -11,6 +11,7 @@
 - Php version 8.2.24
 - Node version 22.11.0
 - Npm version 10.9.0
+- Laravel version 9
 
 ## Setup Laravel Application Step
 - Configure database and create a new env file
