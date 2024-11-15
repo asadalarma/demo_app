@@ -7,6 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Setup Laravel Application Step
+- Configure database and create a new env file
+- Run following commands
+- composer install
+- npm install
+- npm run dev
+- php artisan migrate
+- php artisan db:seed --class = DatabaseSeeder
+
+open two terminal one is running the php artisan serve
+and second one is running the npm run dev
+
+copy the email address from users table and password will be 1234
+
+login inside the system you will see the noteslist 
+
+## Usage
+
+I have used breeze preset if breeze is giving any problem then reinstall breeze
+composer require laravel/breeze --dev
+
+php artisan breeze:install vue 
+    or
+php artisan breeze:install
+select vue
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
