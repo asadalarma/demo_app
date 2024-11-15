@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Laravel version 9
+
+## Php version 8.2.24
+
+## Node version 22.11.0
+
+## Npm version 10.9.0
+
 ## Setup Laravel Application Step
 - Configure database and create a new env file
 - Run following commands
