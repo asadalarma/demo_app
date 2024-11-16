@@ -32,9 +32,8 @@ const showingNavigationDropdown = ref(false);
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </NavLink>
-                                <NavLink :href="route('notelists')" :active="route().current('notelists')">
-                                    Note Lists
-                                </NavLink>
+                                <a class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out" :href="route('clientlists')"> Client Lists </a>
+                                <a class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out" :href="route('notelists')"> Note Lists </a>
                             </div>
                         </div>
 
@@ -117,6 +116,9 @@ const showingNavigationDropdown = ref(false);
                     <div class="pt-2 pb-3 space-y-1">
                         <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('clientlists')" :active="route().current('clientlists')">
+                            Client Lists
                         </ResponsiveNavLink>
                         <ResponsiveNavLink :href="route('notelists')" :active="route().current('notelists')">
                             Note Lists
